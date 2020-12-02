@@ -14,7 +14,6 @@ public class ClassAverage {
    * This function calculates the average from an array of student marks.
    */
   static int findClassAverage(int[][] classMarks) {
-
     // Looping through the array to find the sum of all the marks
     int totalMark = 0;
     for (int studentCounter = 0; studentCounter < classMarks.length; 
